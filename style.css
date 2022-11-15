@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
-	color: #666;
+	color: black;
 	background: #f2f2f2; 
 	font-size: 1em;
 	line-height: 1.5em;
@@ -29,15 +29,7 @@ img {
 		color: white;
 	}
 /*
- * Logo
- */
-	#logo-header:hover {
-		color: #0b76a6;
-	}
-    #logo-header{
-        top: 0;
-    }
-/*
+
  * Navegación
  */
 nav {
@@ -69,19 +61,20 @@ nav ul li a:hover {
 #main-content {
 	background: white;
 	width: 90%;
-	max-width: 800px;
+	max-width: 1500px;
 	margin: 20px auto;
 	box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
 	#main-content header,
 	#main-content .content {
-		padding: 40px;
+		padding: 30px;
+		background-color: #f2f2f2;
 	}
 /* Y por último, con esto estilizaremos el pie de página: */
 
 #main-footer {
-	background: #333;
+	background: black;
 	color: white;
 	text-align: center;
 	padding: 20px;
@@ -96,7 +89,7 @@ nav ul li a:hover {
 	}
     /* Fijando la cabecera */
     #main-header {
-        background: #333;
+        background: black;
         color: white;
         height: 100px;
         
@@ -126,3 +119,29 @@ nav ul li a:hover {
     margin: 5px 80px;
 }
 /* fin iconos */
+
+
+.parrafo{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: right;
+}
+
+#pastor{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 20px;
+	text-align: left;
+}
+
+.servicioImg{
+	max-height:50%;
+	max-width:50%;
+}
+.tituloServicio{
+	padding-left:  50px;
+}
+.parrafoServicio{
+	text-align: center;
+	color: dimgray;
+}
